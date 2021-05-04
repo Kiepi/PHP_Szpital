@@ -1,0 +1,296 @@
+body
+{
+	margin:0;
+	font-family: 'Poppins', sans-serif;
+}
+
+#pojemnik
+{
+	
+}
+#banner
+{
+	width:100%;
+	height:169px;
+	background-color:#00a2e8;
+	text-align:center;
+	font-size:50px;
+}
+#lewy
+{
+	width:12%;
+	height:700px;
+	background-color:#99d9ea;
+	float:left;
+}
+#border
+{
+	width:1%;
+	height:700px;
+	background-color:#00a2e8;
+	float:left;
+}
+#srodek
+{
+	margin:auto;
+	width:130px;
+}
+#prawy
+{
+	width:87%;
+	height:700px;
+	background-color:#99d9ea;
+	float:left;
+}
+#stopka
+{
+	width:100%;
+	height:100px;
+	background-color:#00a2e8;
+	clear:both;
+}
+#logo_style
+{
+	float:left; 
+	padding-top:20px;
+	position:absolute;
+	right:10%;
+	top:28%;
+	opacity: 0.1;
+}
+#stopka-info
+{
+	padding-top:10px;
+	float:left;
+	width:25%;
+	text-align:center;
+}
+#blad
+{
+	width:130px;
+	margin:auto;
+	text-align:center;
+    color: #721c24;
+    background-color: #f8d7da;
+	padding:7px;
+	font-weight:bold;
+    border-color:#f5c6cb;
+    border:1px solid #fe707d;
+    border-radius:5px;
+}
+#table-info
+{
+	float:left;
+	background-color:#404040;
+	width:170px;
+}
+#witaj
+{
+	font-size:20px;
+	text-align:center;
+	margin-top:10px;
+}
+#dane_pacjenta
+{
+	margin:0;
+	margin-left:5px;
+}
+#select_logowanie
+{
+	width:120px;
+	background-color:#efefef;
+	color:#666;
+	border:2px solid #ddd;
+	border-radius:5px;
+	font-size:20px;
+	padding:10px;
+	box-sizing:border-box;
+	outline:none;
+	margin-top:10px;
+	margin-left:5px;
+}
+#select_lekarz
+{
+	width:180px;
+	background-color:#efefef;
+	color:#666;
+	border:2px solid #ddd;
+	border-radius:5px;
+	font-size:20px;
+	padding:10px;
+	box-sizing:border-box;
+	outline:none;
+	margin-top:10px;
+	margin-left:5px;
+}
+input[type=text]
+{
+	width:120px;
+	background-color:#efefef;
+	color:#666;
+	border:2px solid #ddd;
+	border-radius:5px;
+	font-size:20px;
+	padding:10px;
+	box-sizing:border-box;
+	outline:none;
+	margin-top:10px;
+	margin-left:5px;
+}
+input[type=text]:focus
+{
+	-webkit-box-shadow:0px 0px 10px 2px rgba(156,156,156,1);
+	-moz-box-shadow:0px 0px 10px 2px rgba(156,156,156,1);
+	box-shadow:0px 0px 10px 2px rgba(156,156,156,1);
+	border:2px solid #00a2e8;
+	background-color:#dbdbdc;
+}
+input[type=password]
+{
+	width:120px;
+	background-color:#efefef;
+	color:#666;
+	border:2px solid #ddd;
+	border-radius:5px;
+	font-size:20px;
+	padding:10px;
+	box-sizing:border-box;
+	outline:none;
+	margin-top:10px;
+	margin-left:5px;
+}
+input[type=password]:focus
+{
+	-webkit-box-shadow:0px 0px 10px 2px rgba(156,156,156,1);
+	-moz-box-shadow:0px 0px 10px 2px rgba(156,156,156,1);
+	box-shadow:0px 0px 10px 2px rgba(156,156,156,1);
+	border:2px solid #00a2e8;
+	background-color:#dbdbdc;
+}
+#logowanie
+{
+	width:120px;
+	box-sizing:border-box;
+	background-color:#4285f4;
+	font-size:20px;
+	color:white;
+	padding:15px 10px;
+	margin-top:20px;
+	border:none;
+	border-radius:5px;
+	letter-spacing:1px;
+	outline:none;
+	cursor:pointer;
+	margin-left:5px;
+}
+#logowanie:focus
+{
+	-webkit-box-shadow:0px 0px 10px 2px rgba(156,156,156,1);
+	-moz-box-shadow:0px 0px 10px 2px rgba(156,156,156,1);
+	box-shadow:0px 0px 10px 2px rgba(156,156,156,1);
+}
+#logowanie:hover
+{
+	background-color:#5892f2;
+}
+a:link
+{
+  color:#000;
+  text-decoration:none;
+}
+a:visited
+{
+  color:#000;
+  text-decoration:none;
+}
+#wyloguj
+{
+	width:120px;
+	box-sizing:border-box;
+	background-color:#4285f4;
+	font-size:20px;
+	color:white;
+	text-align:center;
+	padding:15px 10px;
+	margin-top:20px;
+	border:none;
+	border-radius:5px;
+	font-size:20px;
+	letter-spacing:1px;
+	outline:none;
+	cursor:pointer;
+	margin-left:5px;
+	position:absolute;
+	bottom:12%;
+}
+#wyloguj:focus
+{
+	-webkit-box-shadow:0px 0px 10px 2px rgba(156,156,156,1);
+	-moz-box-shadow:0px 0px 10px 2px rgba(156,156,156,1);
+	box-shadow:0px 0px 10px 2px rgba(156,156,156,1);
+}
+#wyloguj:hover
+{
+	background-color:#5892f2;
+}
+#lekarz_panel_input
+{
+	cursor:pointer;
+	width:180px;
+	background-color:#efefef;
+	color:#666;
+	border:2px solid #ddd;
+	border-radius:5px;
+	font-size:20px;
+	padding:10px;
+	box-sizing:border-box;
+	outline:none;
+	margin-top:10px;
+	margin-left:5px;
+}
+#lekarz_panel_input:focus
+{
+	-webkit-box-shadow:0px 0px 10px 2px rgba(156,156,156,1);
+	-moz-box-shadow:0px 0px 10px 2px rgba(156,156,156,1);
+	box-shadow:0px 0px 10px 2px rgba(156,156,156,1);
+}
+#lekarz_panel_input:hover
+{
+	background-color:#ddd;
+}
+#diagnoza_info
+{
+	width:546px;
+	background-color:#efefef;
+	border:2px solid #ddd;
+	border-radius:5px;
+	margin-bottom:10px;
+}
+#tekst_diagnoza
+{
+	resize:none;
+	width:550px;
+	min-height:55px;
+	background-color:#efefef;
+	color:#666;
+	border:2px solid #ddd;
+	border-radius:5px;
+	font-size:20px;
+	padding:10px;
+	box-sizing:border-box;
+	outline:none;
+	font-family: 'Poppins', sans-serif;
+}
+#div_style
+{
+	margin-left:5px;
+	width:340px;
+	height:30px;
+	background-color:#efefef;
+	color:#000;
+	border:2px solid #ddd;
+	border-radius:5px;
+	font-size:20px;
+	padding:10px;
+	text-align:center;
+}
